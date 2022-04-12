@@ -1,0 +1,86 @@
+/* ---------- Fonts and rules ---------- */ 
+
+body{
+	background: #FDF5BF;
+	color: ##6D667A;
+	font-family: Helvetica;
+	font-size: 17px;
+}
+
+h1, h2 {
+	font-weight: 700;
+}
+
+
+h1{
+	color: #493285;
+	font-size: 42px;
+	font-family: 'Fira Sans', sans-serif;
+
+}
+
+h2{
+	font-family: 'Roboto Slab', serif;
+	font-size: 28px;
+	font-weight: 550;
+	color: #680788;
+}
+
+h3{
+	font-family: 'Beau Rivage', cursive;
+	font-size: 27px;
+}
+
+/* ---------- Display ---------- */ 
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-box{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+	border-radius: 4px ;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 70%;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+
+}
+
+.list-inline i{
+	font-size: 50px;
+	text-decoration: none;
+}
+
+.list-inline i:hover{
+  color: #C2B5E3;
+}
+
+}
+
+@media (max-width: 760px) {
+    .container {
+      width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+      width: 400px;
+    }
+}
